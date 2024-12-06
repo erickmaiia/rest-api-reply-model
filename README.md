@@ -1,4 +1,3 @@
-
 # Financial Sentiment Analysis API  
 
 An API built with **FastAPI** for text analysis and sentiment detection, focusing on financial-related content.  
@@ -9,7 +8,7 @@ An API built with **FastAPI** for text analysis and sentiment detection, focusin
 - **Machine Learning Models**: Integrates algorithms such as SVM, Naive Bayes, XGBoost, LightGBM, and others.  
 - **Text Preprocessing**: Cleans and normalizes text before analysis.  
 
----
+---  
 
 ## Technologies Used  
 
@@ -20,8 +19,9 @@ Key technologies and libraries used in this project include:
 - **Scikit-learn**: Tools for machine learning and data mining.  
 - **Joblib**: For serialization of trained models.  
 - **NLTK**: Tools for natural language processing.  
+- **PostgreSQL**: For storing analysis data, now hosted on **Neon**.  
 
----
+---  
 
 ## API Endpoints  
 
@@ -49,7 +49,7 @@ Performs sentiment analysis using multiple models on a provided text.
   - `AdaBoost`  
   - `Decision Tree`  
 
----
+---  
 
 ## About the Models  
 
@@ -57,8 +57,10 @@ Access the repository for more details:
 
 - Financial Market Sentiment Prediction: [https://github.com/erickmaiia/ml-financial-sentiment-analysis](https://github.com/erickmaiia/ml-financial-sentiment-analysis)  
 
----
+---  
+## Database  
 
-## Dependencies  
+This application now uses **PostgreSQL** for data storage, hosted on **Neon**. Make sure to set up the database connection using the appropriate credentials in your environment variables.
 
-All required libraries are listed in the `requirements.txt` file.  
+---  
+
