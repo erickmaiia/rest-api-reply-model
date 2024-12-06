@@ -1,8 +1,5 @@
 import os
-from dotenv import load_dotenv
-# Caminho para a pasta ml_models
 
-load_dotenv()  # Carrega as variáveis de ambiente do arquivo .env
 ML_MODELS_PATH = os.path.join(os.path.dirname(__file__), "./", "ml_models")
 
 # Atualizar os caminhos dos modelos para apontar para a pasta ml_models
