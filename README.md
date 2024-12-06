@@ -1,59 +1,64 @@
-# Financial Sentiment Analysis API
 
-Uma API construída com **FastAPI** para análise de textos e retorno de sentimentos, com foco em analise de textos relacionados a finanças.
+# Financial Sentiment Analysis API  
 
-## Funcionalidades
+An API built with **FastAPI** for text analysis and sentiment detection, focusing on financial-related content.  
 
-- **Análise de Sentimentos:** Retorna o sentimento (positivo, negativo ou neutro) com base em textos financeiros fornecidos.
-- **Modelos de Machine Learning:** Integração com algoritmos como SVM, Naive Bayes, XGBoost, LightGBM, entre outros.
-- **Preprocessamento de Textos:** Limpeza e normalização dos textos antes da análise.
+## Features  
 
-## Tecnologias Utilizadas
-
-As principais tecnologias e bibliotecas usadas no projeto incluem:
-
-- **FastAPI**: Framework backend moderno e de alto desempenho.
-- **Pydantic**: Para validação e serialização de dados.
-- **Scikit-learn**: Conjunto de ferramentas para aprendizado de máquina e mineração de dados.
-- **Joblib**: Para serialização de modelos treinados.
-- **NLTK**: Ferramentas para processamento de linguagem natural.
+- **Sentiment Analysis**: Returns sentiment (positive, negative, or neutral) based on the provided financial text.  
+- **Machine Learning Models**: Integrates algorithms such as SVM, Naive Bayes, XGBoost, LightGBM, and others.  
+- **Text Preprocessing**: Cleans and normalizes text before analysis.  
 
 ---
 
-## Endpoints
+## Technologies Used  
 
-**Acesse a documentação interativa:**
+Key technologies and libraries used in this project include:  
 
-- Swagger UI: [https://rest-api-reply-model-v1.onrender.com/docs](https://rest-api-reply-model-v1.onrender.com/docs)
-- ReDoc: [https://rest-api-reply-model-v1.onrender.com/redoc](https://rest-api-reply-model-v1.onrender.com/redoc)
-
-### 1. **`POST /model_prediction/`**
-
-Realiza a análise de sentimentos com base em um texto fornecido e um modelo fornecido.
-
-### 2. **`POST /multi_model_prediction/`**
-
-Realiza a análise de sentimentos com base em um texto fornecido.
-
-- **Modelos Disponíveis**:
-  - `Naive Bayes`
-  - `SVM`
-  - `XGBoost`
-  - `LightGBM`
-  - `Multilayer Perceptron`
-  - `Gradient Boosting`
-  - `Random Forest`
-  - `AdaBoost`
-  - `Decision Tree`
+- **FastAPI**: Modern, high-performance backend framework.  
+- **Pydantic**: For data validation and serialization.  
+- **Scikit-learn**: Tools for machine learning and data mining.  
+- **Joblib**: For serialization of trained models.  
+- **NLTK**: Tools for natural language processing.  
 
 ---
 
-## Sobre os modelos
+## API Endpoints  
 
-**Acesse a esse repositorio:**
+**Interactive Documentation Access**:  
 
-- Financial Market Sentiment Prediction: [https://github.com/erickmaiia/ml-financial-sentiment-analysis](https://github.com/erickmaiia/ml-financial-sentiment-analysis)
+- Swagger UI: [https://rest-api-reply-model-v1.onrender.com/docs](https://rest-api-reply-model-v1.onrender.com/docs)  
+- ReDoc: [https://rest-api-reply-model-v1.onrender.com/redoc](https://rest-api-reply-model-v1.onrender.com/redoc)  
 
-## Dependências
+### Endpoints Overview  
 
-As bibliotecas utilizadas estão listadas no arquivo `requirements.txt`.
+#### 1. **`POST /model_prediction/`**  
+Performs sentiment analysis based on a provided text and specified model.  
+
+#### 2. **`POST /multi_model_prediction/`**  
+Performs sentiment analysis using multiple models on a provided text.  
+
+- **Available Models**:  
+  - `Naive Bayes`  
+  - `SVM`  
+  - `XGBoost`  
+  - `LightGBM`  
+  - `Multilayer Perceptron`  
+  - `Gradient Boosting`  
+  - `Random Forest`  
+  - `AdaBoost`  
+  - `Decision Tree`  
+
+---
+
+## About the Models  
+
+Access the repository for more details:  
+
+- Financial Market Sentiment Prediction: [https://github.com/erickmaiia/ml-financial-sentiment-analysis](https://github.com/erickmaiia/ml-financial-sentiment-analysis)  
+
+---
+
+## Dependencies  
+
+All required libraries are listed in the `requirements.txt` file.  
