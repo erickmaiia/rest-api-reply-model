@@ -1,5 +1,5 @@
 from app.utils.sentiment_mapping import assign_sentiment_alias
-from app.config.paths import VECTORIZER_PATH
+from app.config import VECTORIZER_PATH
 from joblib import load
 
 vectorizer = load(VECTORIZER_PATH)
