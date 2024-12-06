@@ -1,4 +1,4 @@
-from app.config.paths import MODEL_PATHS
+from app.config import MODEL_PATHS
 from joblib import load
 
 
