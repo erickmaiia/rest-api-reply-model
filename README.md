@@ -56,11 +56,3 @@ Performs sentiment analysis using multiple models on a provided text.
 Access the repository for more details:  
 
 - Financial Market Sentiment Prediction: [https://github.com/erickmaiia/ml-financial-sentiment-analysis](https://github.com/erickmaiia/ml-financial-sentiment-analysis)  
-
----  
-## Database  
-
-This application now uses **PostgreSQL** for data storage, hosted on **Neon**. Make sure to set up the database connection using the appropriate credentials in your environment variables.
-
----  
-
