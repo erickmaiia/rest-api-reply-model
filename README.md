@@ -55,4 +55,5 @@ Performs sentiment analysis using multiple models on a provided text.
 
 Access the repository for more details:  
 
-- Financial Market Sentiment Prediction: [https://github.com/erickmaiia/ml-financial-sentiment-analysis](https://github.com/erickmaiia/ml-financial-sentiment-analysis)  
+- Financial Market Sentiment Prediction: [https://github.com/erickmaiia/ml-financial-sentiment-analysis](https://github.com/erickmaiia/ml-financial-sentiment-analysis)
+- Download the BERT model here and place it in the app/ml_models/BERT directory: [https://drive.google.com/file/d/1YkO0rkNpEkX91WFS2VbNgjJC_Z0qOn15/view?usp=sharing](https://drive.google.com/file/d/1YkO0rkNpEkX91WFS2VbNgjJC_Z0qOn15/view?usp=sharing)
